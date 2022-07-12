@@ -26,8 +26,40 @@ img{
     background-color: var(--bsf-green);
     }
 
+.star::before{
+    content:'' ;
+    border: 0.1rem solid;
+    background-color:currentColor;
+    width: 10vw;
+    max-width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star::after{
+    content:'' ;
+    border: 0.1rem solid ;
+    background-color:currentColor;
+    width: 10vw;
+    max-width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 i{
     height: 40px;
     width: 40px;
-    color: #FFFFFF;
-}    
+    color:currentColor;
+}  
+
+.col>h4::after{
+    content:'' ;
+    border:1px solid lightgrey;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;   
+}
+
+.portfolio>.col{
+    border-radius: 15%;
+}

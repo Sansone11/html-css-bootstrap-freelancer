@@ -1,0 +1,33 @@
+*{
+    /* border: solid 1px black; */
+}
+
+:root{
+    --bsf-green:#1ABC9C;
+    --bsf-darker:#2C3E50;
+    --bsf-dark:#3A546D;
+    --bsf-light:#FFFFFF;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.avatar{
+    max-width: 25%;
+}
+
+.navbar{
+    background-color: var(--bsf-darker);
+}
+
+.hero,.about{
+    background-color: var(--bsf-green);
+    }
+
+i{
+    height: 40px;
+    width: 40px;
+    color: #FFFFFF;
+}    

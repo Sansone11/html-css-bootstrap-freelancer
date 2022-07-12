@@ -7,6 +7,8 @@
     --bsf-darker:#2C3E50;
     --bsf-dark:#3A546D;
     --bsf-light:#FFFFFF;
+    --bsf-foot:#3A546D;
+    --bsf-copy:#2C3E50;
 }
 
 
@@ -25,6 +27,15 @@ img{
 .hero,.about{
     background-color: var(--bsf-green);
     }
+
+.end{
+    background-color: var(--bsf-foot);
+}
+
+.copy{
+    background-color: var(--bsf-copy);
+
+}
 
 .star::before{
     content:'' ;
@@ -46,10 +57,15 @@ img{
     vertical-align: middle;
 }
 
-.btn-md{
-    width: 4rem;
+.bot{
+    width: 5rem;
+    margin:0 auto;
     text-align: center;
+    color:#1ABC9C;
+    border: #FFFFFF;
+    color: #FFFFFF;
 }
+
 
 i{
     height: 40px;
@@ -66,5 +82,5 @@ i{
 }
 
 a{
-    text-decoration-style: none;
+    text-decoration-: none;
 }

@@ -46,6 +46,11 @@ img{
     vertical-align: middle;
 }
 
+.btn-md{
+    width: 4rem;
+    text-align: center;
+}
+
 i{
     height: 40px;
     width: 40px;
@@ -60,6 +65,6 @@ i{
     vertical-align: middle;   
 }
 
-.portfolio>.col{
-    border-radius: 15%;
+a{
+    text-decoration-style: none;
 }
